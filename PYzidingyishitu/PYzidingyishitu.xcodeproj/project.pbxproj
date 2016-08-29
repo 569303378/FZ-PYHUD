@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18625D221D5C061F00494A44 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18625D211D5C061F00494A44 /* main.m */; };
+		18625D251D5C061F00494A44 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18625D241D5C061F00494A44 /* AppDelegate.m */; };
+		18625D281D5C062000494A44 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18625D271D5C062000494A44 /* ViewController.m */; };
+		18625D2B1D5C062000494A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18625D291D5C062000494A44 /* Main.storyboard */; };
+		18625D2D1D5C062000494A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18625D2C1D5C062000494A44 /* Assets.xcassets */; };
+		18625D301D5C062000494A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18625D2E1D5C062000494A44 /* LaunchScreen.storyboard */; };
+		18625D3B1D5C062000494A44 /* PYzidingyishituTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18625D3A1D5C062000494A44 /* PYzidingyishituTests.m */; };
+		18625D461D5C062000494A44 /* PYzidingyishituUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18625D451D5C062000494A44 /* PYzidingyishituUITests.m */; };
+		18625D581D5C49B300494A44 /* NSString+PYmimapanduan.m in Sources */ = {isa = PBXBuildFile; fileRef = 18625D571D5C49B300494A44 /* NSString+PYmimapanduan.m */; };
+		18625D641D5C623D00494A44 /* MBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18625D631D5C623D00494A44 /* MBManager.m */; };
+		18625D661D5C664100494A44 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18625D651D5C664100494A44 /* 0.jpg */; };
+		186767C51D716CD6000AC4E7 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 186767C41D716CD6000AC4E7 /* 5.jpg */; };
+		6651B506C6ACEB3000D5E2E4 /* libPods-PYzidingyishitu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FFFF5C82CC05CD913DE4DAD /* libPods-PYzidingyishitu.a */; };
+		CA6AE762D1F199D36E2F43C9 /* libPods-PYzidingyishituTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A15CA61DC07CFB2ED111CC02 /* libPods-PYzidingyishituTests.a */; };
+		F689B41143F4A063ED364D2A /* libPods-PYzidingyishituUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1DB6B0E72949C79CD6CA10 /* libPods-PYzidingyishituUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18625D371D5C062000494A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18625D151D5C061F00494A44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18625D1C1D5C061F00494A44;
+			remoteInfo = PYzidingyishitu;
+		};
+		18625D421D5C062000494A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18625D151D5C061F00494A44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18625D1C1D5C061F00494A44;
+			remoteInfo = PYzidingyishitu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18625D1D1D5C061F00494A44 /* PYzidingyishitu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PYzidingyishitu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18625D211D5C061F00494A44 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18625D231D5C061F00494A44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18625D241D5C061F00494A44 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18625D261D5C062000494A44 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18625D271D5C062000494A44 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18625D2A1D5C062000494A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18625D2C1D5C062000494A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18625D2F1D5C062000494A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18625D311D5C062000494A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18625D361D5C062000494A44 /* PYzidingyishituTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYzidingyishituTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18625D3A1D5C062000494A44 /* PYzidingyishituTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYzidingyishituTests.m; sourceTree = "<group>"; };
+		18625D3C1D5C062000494A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18625D411D5C062000494A44 /* PYzidingyishituUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PYzidingyishituUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18625D451D5C062000494A44 /* PYzidingyishituUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PYzidingyishituUITests.m; sourceTree = "<group>"; };
+		18625D471D5C062000494A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18625D561D5C49B300494A44 /* NSString+PYmimapanduan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PYmimapanduan.h"; sourceTree = "<group>"; };
+		18625D571D5C49B300494A44 /* NSString+PYmimapanduan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PYmimapanduan.m"; sourceTree = "<group>"; };
+		18625D621D5C623D00494A44 /* MBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBManager.h; sourceTree = "<group>"; };
+		18625D631D5C623D00494A44 /* MBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBManager.m; sourceTree = "<group>"; };
+		18625D651D5C664100494A44 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		186767C41D716CD6000AC4E7 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		2E3051F7AB92DE3A8F63750F /* Pods-PYzidingyishituTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYzidingyishituTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYzidingyishituTests/Pods-PYzidingyishituTests.release.xcconfig"; sourceTree = "<group>"; };
+		383106F57D1CF988B5D2CAF2 /* Pods-PYzidingyishituTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYzidingyishituTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYzidingyishituTests/Pods-PYzidingyishituTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52B5735B1625A000E7CAC05E /* Pods-PYzidingyishitu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYzidingyishitu.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYzidingyishitu/Pods-PYzidingyishitu.release.xcconfig"; sourceTree = "<group>"; };
+		540E43D1FB38102B37C985F5 /* Pods-PYzidingyishitu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYzidingyishitu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYzidingyishitu/Pods-PYzidingyishitu.debug.xcconfig"; sourceTree = "<group>"; };
+		5B1DB6B0E72949C79CD6CA10 /* libPods-PYzidingyishituUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYzidingyishituUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB539DE67D438E272F51D49 /* Pods-PYzidingyishituUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYzidingyishituUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PYzidingyishituUITests/Pods-PYzidingyishituUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FFFF5C82CC05CD913DE4DAD /* libPods-PYzidingyishitu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYzidingyishitu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9471683ED4688F3E4441479B /* Pods-PYzidingyishituUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PYzidingyishituUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PYzidingyishituUITests/Pods-PYzidingyishituUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A15CA61DC07CFB2ED111CC02 /* libPods-PYzidingyishituTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PYzidingyishituTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18625D1A1D5C061F00494A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6651B506C6ACEB3000D5E2E4 /* libPods-PYzidingyishitu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18625D331D5C062000494A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6AE762D1F199D36E2F43C9 /* libPods-PYzidingyishituTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18625D3E1D5C062000494A44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F689B41143F4A063ED364D2A /* libPods-PYzidingyishituUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AEBBD59EC81A1318CA9EC1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				540E43D1FB38102B37C985F5 /* Pods-PYzidingyishitu.debug.xcconfig */,
+				52B5735B1625A000E7CAC05E /* Pods-PYzidingyishitu.release.xcconfig */,
+				383106F57D1CF988B5D2CAF2 /* Pods-PYzidingyishituTests.debug.xcconfig */,
+				2E3051F7AB92DE3A8F63750F /* Pods-PYzidingyishituTests.release.xcconfig */,
+				7AB539DE67D438E272F51D49 /* Pods-PYzidingyishituUITests.debug.xcconfig */,
+				9471683ED4688F3E4441479B /* Pods-PYzidingyishituUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		18625D141D5C061F00494A44 = {
+			isa = PBXGroup;
+			children = (
+				18625D1F1D5C061F00494A44 /* PYzidingyishitu */,
+				18625D391D5C062000494A44 /* PYzidingyishituTests */,
+				18625D441D5C062000494A44 /* PYzidingyishituUITests */,
+				18625D1E1D5C061F00494A44 /* Products */,
+				0AEBBD59EC81A1318CA9EC1B /* Pods */,
+				C47F3A72B0F0678B03E6536B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18625D1E1D5C061F00494A44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18625D1D1D5C061F00494A44 /* PYzidingyishitu.app */,
+				18625D361D5C062000494A44 /* PYzidingyishituTests.xctest */,
+				18625D411D5C062000494A44 /* PYzidingyishituUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18625D1F1D5C061F00494A44 /* PYzidingyishitu */ = {
+			isa = PBXGroup;
+			children = (
+				18625D231D5C061F00494A44 /* AppDelegate.h */,
+				18625D241D5C061F00494A44 /* AppDelegate.m */,
+				18625D261D5C062000494A44 /* ViewController.h */,
+				18625D271D5C062000494A44 /* ViewController.m */,
+				18625D561D5C49B300494A44 /* NSString+PYmimapanduan.h */,
+				18625D571D5C49B300494A44 /* NSString+PYmimapanduan.m */,
+				18625D621D5C623D00494A44 /* MBManager.h */,
+				18625D631D5C623D00494A44 /* MBManager.m */,
+				18625D651D5C664100494A44 /* 0.jpg */,
+				186767C41D716CD6000AC4E7 /* 5.jpg */,
+				18625D291D5C062000494A44 /* Main.storyboard */,
+				18625D2C1D5C062000494A44 /* Assets.xcassets */,
+				18625D2E1D5C062000494A44 /* LaunchScreen.storyboard */,
+				18625D311D5C062000494A44 /* Info.plist */,
+				18625D201D5C061F00494A44 /* Supporting Files */,
+			);
+			path = PYzidingyishitu;
+			sourceTree = "<group>";
+		};
+		18625D201D5C061F00494A44 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18625D211D5C061F00494A44 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18625D391D5C062000494A44 /* PYzidingyishituTests */ = {
+			isa = PBXGroup;
+			children = (
+				18625D3A1D5C062000494A44 /* PYzidingyishituTests.m */,
+				18625D3C1D5C062000494A44 /* Info.plist */,
+			);
+			path = PYzidingyishituTests;
+			sourceTree = "<group>";
+		};
+		18625D441D5C062000494A44 /* PYzidingyishituUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18625D451D5C062000494A44 /* PYzidingyishituUITests.m */,
+				18625D471D5C062000494A44 /* Info.plist */,
+			);
+			path = PYzidingyishituUITests;
+			sourceTree = "<group>";
+		};
+		C47F3A72B0F0678B03E6536B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FFFF5C82CC05CD913DE4DAD /* libPods-PYzidingyishitu.a */,
+				A15CA61DC07CFB2ED111CC02 /* libPods-PYzidingyishituTests.a */,
+				5B1DB6B0E72949C79CD6CA10 /* libPods-PYzidingyishituUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18625D1C1D5C061F00494A44 /* PYzidingyishitu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18625D4A1D5C062000494A44 /* Build configuration list for PBXNativeTarget "PYzidingyishitu" */;
+			buildPhases = (
+				DE91EDE371DC879D858D14D4 /* [CP] Check Pods Manifest.lock */,
+				18625D191D5C061F00494A44 /* Sources */,
+				18625D1A1D5C061F00494A44 /* Frameworks */,
+				18625D1B1D5C061F00494A44 /* Resources */,
+				D67770390AB5150CF2DDCE58 /* [CP] Embed Pods Frameworks */,
+				22F3CA6EE0EC016BF51A29DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PYzidingyishitu;
+			productName = PYzidingyishitu;
+			productReference = 18625D1D1D5C061F00494A44 /* PYzidingyishitu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18625D351D5C062000494A44 /* PYzidingyishituTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18625D4D1D5C062000494A44 /* Build configuration list for PBXNativeTarget "PYzidingyishituTests" */;
+			buildPhases = (
+				92A856BB75487C785E4BCC50 /* [CP] Check Pods Manifest.lock */,
+				18625D321D5C062000494A44 /* Sources */,
+				18625D331D5C062000494A44 /* Frameworks */,
+				18625D341D5C062000494A44 /* Resources */,
+				4FE5163073859A9A48386CA5 /* [CP] Embed Pods Frameworks */,
+				3945198D75B3BB070D00D37E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18625D381D5C062000494A44 /* PBXTargetDependency */,
+			);
+			name = PYzidingyishituTests;
+			productName = PYzidingyishituTests;
+			productReference = 18625D361D5C062000494A44 /* PYzidingyishituTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18625D401D5C062000494A44 /* PYzidingyishituUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18625D501D5C062000494A44 /* Build configuration list for PBXNativeTarget "PYzidingyishituUITests" */;
+			buildPhases = (
+				CF626675311EAD4BAD2F9FF2 /* [CP] Check Pods Manifest.lock */,
+				18625D3D1D5C062000494A44 /* Sources */,
+				18625D3E1D5C062000494A44 /* Frameworks */,
+				18625D3F1D5C062000494A44 /* Resources */,
+				35F886024514882B2218ABFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18625D431D5C062000494A44 /* PBXTargetDependency */,
+			);
+			name = PYzidingyishituUITests;
+			productName = PYzidingyishituUITests;
+			productReference = 18625D411D5C062000494A44 /* PYzidingyishituUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18625D151D5C061F00494A44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					18625D1C1D5C061F00494A44 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+					};
+					18625D351D5C062000494A44 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 18625D1C1D5C061F00494A44;
+					};
+					18625D401D5C062000494A44 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8B4BA8E4SM;
+						TestTargetID = 18625D1C1D5C061F00494A44;
+					};
+				};
+			};
+			buildConfigurationList = 18625D181D5C061F00494A44 /* Build configuration list for PBXProject "PYzidingyishitu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18625D141D5C061F00494A44;
+			productRefGroup = 18625D1E1D5C061F00494A44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18625D1C1D5C061F00494A44 /* PYzidingyishitu */,
+				18625D351D5C062000494A44 /* PYzidingyishituTests */,
+				18625D401D5C062000494A44 /* PYzidingyishituUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18625D1B1D5C061F00494A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18625D661D5C664100494A44 /* 0.jpg in Resources */,
+				186767C51D716CD6000AC4E7 /* 5.jpg in Resources */,
+				18625D301D5C062000494A44 /* LaunchScreen.storyboard in Resources */,
+				18625D2D1D5C062000494A44 /* Assets.xcassets in Resources */,
+				18625D2B1D5C062000494A44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18625D341D5C062000494A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18625D3F1D5C062000494A44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22F3CA6EE0EC016BF51A29DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYzidingyishitu/Pods-PYzidingyishitu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35F886024514882B2218ABFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYzidingyishituUITests/Pods-PYzidingyishituUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3945198D75B3BB070D00D37E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYzidingyishituTests/Pods-PYzidingyishituTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FE5163073859A9A48386CA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYzidingyishituTests/Pods-PYzidingyishituTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92A856BB75487C785E4BCC50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF626675311EAD4BAD2F9FF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D67770390AB5150CF2DDCE58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PYzidingyishitu/Pods-PYzidingyishitu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE91EDE371DC879D858D14D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18625D191D5C061F00494A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18625D281D5C062000494A44 /* ViewController.m in Sources */,
+				18625D251D5C061F00494A44 /* AppDelegate.m in Sources */,
+				18625D641D5C623D00494A44 /* MBManager.m in Sources */,
+				18625D581D5C49B300494A44 /* NSString+PYmimapanduan.m in Sources */,
+				18625D221D5C061F00494A44 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18625D321D5C062000494A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18625D3B1D5C062000494A44 /* PYzidingyishituTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18625D3D1D5C062000494A44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18625D461D5C062000494A44 /* PYzidingyishituUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18625D381D5C062000494A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18625D1C1D5C061F00494A44 /* PYzidingyishitu */;
+			targetProxy = 18625D371D5C062000494A44 /* PBXContainerItemProxy */;
+		};
+		18625D431D5C062000494A44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18625D1C1D5C061F00494A44 /* PYzidingyishitu */;
+			targetProxy = 18625D421D5C062000494A44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18625D291D5C062000494A44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18625D2A1D5C062000494A44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18625D2E1D5C062000494A44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18625D2F1D5C062000494A44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18625D481D5C062000494A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18625D491D5C062000494A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18625D4B1D5C062000494A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540E43D1FB38102B37C985F5 /* Pods-PYzidingyishitu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYzidingyishitu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYzidingyishitu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18625D4C1D5C062000494A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B5735B1625A000E7CAC05E /* Pods-PYzidingyishitu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PYzidingyishitu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYzidingyishitu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18625D4E1D5C062000494A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 383106F57D1CF988B5D2CAF2 /* Pods-PYzidingyishituTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYzidingyishituTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYzidingyishituTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYzidingyishitu.app/PYzidingyishitu";
+			};
+			name = Debug;
+		};
+		18625D4F1D5C062000494A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E3051F7AB92DE3A8F63750F /* Pods-PYzidingyishituTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PYzidingyishituTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYzidingyishituTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PYzidingyishitu.app/PYzidingyishitu";
+			};
+			name = Release;
+		};
+		18625D511D5C062000494A44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB539DE67D438E272F51D49 /* Pods-PYzidingyishituUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PYzidingyishituUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYzidingyishituUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYzidingyishitu;
+			};
+			name = Debug;
+		};
+		18625D521D5C062000494A44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9471683ED4688F3E4441479B /* Pods-PYzidingyishituUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PYzidingyishituUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.PYzidingyishituUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PYzidingyishitu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18625D181D5C061F00494A44 /* Build configuration list for PBXProject "PYzidingyishitu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18625D481D5C062000494A44 /* Debug */,
+				18625D491D5C062000494A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18625D4A1D5C062000494A44 /* Build configuration list for PBXNativeTarget "PYzidingyishitu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18625D4B1D5C062000494A44 /* Debug */,
+				18625D4C1D5C062000494A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18625D4D1D5C062000494A44 /* Build configuration list for PBXNativeTarget "PYzidingyishituTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18625D4E1D5C062000494A44 /* Debug */,
+				18625D4F1D5C062000494A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18625D501D5C062000494A44 /* Build configuration list for PBXNativeTarget "PYzidingyishituUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18625D511D5C062000494A44 /* Debug */,
+				18625D521D5C062000494A44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18625D151D5C061F00494A44 /* Project object */;
+}
